@@ -7,7 +7,7 @@
 </head>
 <body>
   <script>
-    // Your code will go here
+    // Math
     console.log("Let's do math:");
     let x=5;
     console.log(x);
@@ -38,9 +38,35 @@
     let name = firstName + " " + middleName + " " + lastName;
     console.log(name);
 
-    //Strings on my own
+    // Strings on my own
     let greeting = 'My name is ' + name;
     console.log(greeting);
+    
+    // Functions
+    console.log("Using functions:");
+    
+    // Function to make square numbers
+    function makeSquare(theNumb) {
+      let squared = theNumb * theNumb;
+      return squared;
+      }
+
+    let try01 = makeSquare(3);
+    console.log(try01);
+    console.log(makeSquare(5));
+    console.log(makeSquare(9));
+
+    // Functions on my own
+    function makeName(firstName, middleName, lastName) {
+      let fullName = firstName + " " + middleName + " " + lastName;
+      return fullName;
+    }
+
+    let try02 = makeName("Brandon", "William", "Chan");
+    console.log(try02);
+    console.log(makeName("Robert", "\"Beto\"", "O'Roarke"));
+    console.log(makeName("John", "Fitzgerald", "Kennedy"));
+    
     
   </script>
 </body>
